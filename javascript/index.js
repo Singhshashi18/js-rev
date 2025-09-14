@@ -8,7 +8,7 @@ const debounce=(fn,delay)=>{
 }
 const searchApi=(query)=>{
     console.log("scmjdjc")
-}  
+}   
 const  debounceSearch=debounce(searchApi,400)
 document.querySelector("#search").addEventListener("input",(e)=>{
     debounceSearch(e.target.value)
