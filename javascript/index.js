@@ -12,7 +12,7 @@ const searchApi=(query)=>{
 const debounceSearch=debounce(searchApi,400)
 document.querySelector("#search").addEventListener("input",(e)=>{
     debounceSearch(e.target.value)
-});
+}); 
 
 
 //throttling
