@@ -1,4 +1,4 @@
-        // debounce
+         // debounce
 const debounce=(fn,delay)=>{
     let timer;
     return (...args)=>{
